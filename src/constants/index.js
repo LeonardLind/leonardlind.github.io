@@ -186,7 +186,7 @@ export const projects = [
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'Under development..',
-        description: 'Ongoing project, currently under development. At this stage, the project has no name',
+        description: 'Ongoing project, currently under development. At this stage, the project has no name.',
         link: 'https://leonardlind.github.io',
     }
 ];
