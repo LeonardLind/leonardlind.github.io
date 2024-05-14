@@ -21,6 +21,8 @@ import {
     typescript
 } from "../assets/icons";
 
+import { a, vgame, potato, parallaxjungle, ballzy } from "../assets/videos";
+
 export const skills = [
     {
         imageUrl: css,
@@ -149,9 +151,9 @@ export const projects = [
     {
         iconUrl: leaf,
         theme: 'btn-back-red',
-        name: 'What To Eat',
-        description: 'Revolutionize your dinner decisions with this exciting new app! Say goodbye to the dilemma of \'What\'s for dinner?\' and let spontaneous swiping guide your culinary adventures. Because every meal should be an exciting journey',
-        link: 'https://leonardlind.github.io/Whats-For-Eats/',
+        name: 'Be Ballzy',
+        description: 'Ignite your inner flame! Our website is designed to inspire you to think outside the box and break the mold. Embrace your unique vision and let Ballzy guide you on a path of innovative creativity. Because every idea should be a bold adventure.',
+        link: 'https://leonardlind.github.io/Ballzy2.0/',
     },
     {
         iconUrl: game,
@@ -159,6 +161,13 @@ export const projects = [
         name: 'Gotta Code \'Em All',
         description: 'Embark on a coding adventure in a unique Pokémon style. Immerse yourself in this coding journey that showcases my passion for coding and tells my life story in an innovative and engaging way.',
         link: 'https://leonardlind.github.io/Gotta-Code-Em-All/',
+    },
+    {
+        iconUrl: game,
+        theme: 'btn-back-green',
+        name: 'Parallax Jungle',
+        description: 'Discover the wonders of Zhangjiajie with our premier travel agency!  Let us craft your perfect adventure, blending cultural treasures and natural splendor, because every journey to Zhangjiajie should be a once-in-a-lifetime experience.',
+        link: 'https://leonardlind.github.io/Parallax-Jungle/',
     },
     {
         iconUrl: life,
@@ -189,4 +198,61 @@ export const projects = [
         description: 'Ongoing project, currently under development. At this stage, the project has no name.',
         link: 'https://leonardlind.github.io',
     }
+];
+
+
+export const videos = [
+    {
+        title: "Project ai 1",
+        skill_name: "Next.js & React, Tailwind & Prisma & Stripe ",
+        icon: vastberga,
+        iconBg: "#accbe1",
+        date: "Feb 2019 - Present",
+        view: a,
+    },
+    {
+        title: "Project ai 2",
+        skill_name: "Next.js & React, Tailwind & Prisma & Stripe",
+        icon: barkbudsnow,
+        iconBg: "#fbc3bc",
+        date: "Dec 2019 - Apr 2020",
+        view: a,
+        
+    },
+    {
+        title: "Game: My coding journy",
+        skill_name: "JavaScript, Tiled",
+        icon: preschool,
+        iconBg: "#b7e4c7",
+        date: "Jan 2018 - Jan 2019",
+        view: vgame,
+        
+    },
+    {
+        title: "Apple clone; Potato",
+        skill_name: "React, Three.js & GSAP",
+        icon: julgran,
+        iconBg: "#a2d2ff",
+        date: "Dec 2018 & Dec 2020",
+        view: potato, 
+       
+    },
+    {
+        title: "Gsap mess around",
+        skill_name: "JavaScript, Gsap",
+        icon: julgran,
+        iconBg: "#a2d2ff",
+        date: "Dec 2018 & Dec 2020",
+        view: parallaxjungle,
+       
+    },
+    {
+        title: "Be Ballzy",
+        skill_name: "Blender, JavaScript",
+        icon: julgran,
+        iconBg: "#a2d2ff",
+        date: "Dec 2018 & Dec 2020",
+        view: ballzy,
+        
+    },
 ];
