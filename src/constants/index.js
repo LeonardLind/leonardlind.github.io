@@ -21,7 +21,7 @@ import {
     typescript
 } from "../assets/icons";
 
-import { a, vgame, potato, parallaxjungle, ballzy } from "../assets/videos";
+
 
 export const skills = [
     {
@@ -201,58 +201,3 @@ export const projects = [
 ];
 
 
-export const videos = [
-    {
-        title: "Project ai 1",
-        skill_name: "Next.js & React, Tailwind & Prisma & Stripe ",
-        icon: vastberga,
-        iconBg: "#accbe1",
-        date: "Feb 2019 - Present",
-        view: a,
-    },
-    {
-        title: "Project ai 2",
-        skill_name: "Next.js & React, Tailwind & Prisma & Stripe",
-        icon: barkbudsnow,
-        iconBg: "#fbc3bc",
-        date: "Dec 2019 - Apr 2020",
-        view: a,
-        
-    },
-    {
-        title: "Game: My coding journy",
-        skill_name: "JavaScript, Tiled",
-        icon: preschool,
-        iconBg: "#b7e4c7",
-        date: "Jan 2018 - Jan 2019",
-        view: vgame,
-        
-    },
-    {
-        title: "Apple clone; Potato",
-        skill_name: "React, Three.js & GSAP",
-        icon: julgran,
-        iconBg: "#a2d2ff",
-        date: "Dec 2018 & Dec 2020",
-        view: potato, 
-       
-    },
-    {
-        title: "Gsap mess around",
-        skill_name: "JavaScript, Gsap",
-        icon: julgran,
-        iconBg: "#a2d2ff",
-        date: "Dec 2018 & Dec 2020",
-        view: parallaxjungle,
-       
-    },
-    {
-        title: "Be Ballzy",
-        skill_name: "Blender, JavaScript",
-        icon: julgran,
-        iconBg: "#a2d2ff",
-        date: "Dec 2018 & Dec 2020",
-        view: ballzy,
-        
-    },
-];
